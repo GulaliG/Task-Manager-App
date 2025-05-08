@@ -1,26 +1,33 @@
 /**
- * Below are the colors that are used in the app. The colors are defined in the light and dark mode.
- * There are many other ways to style your app. For example, [Nativewind](https://www.nativewind.dev/), [Tamagui](https://tamagui.dev/), [unistyles](https://reactnativeunistyles.vercel.app), etc.
+ * App-wide color constants for consistent theming and styling
  */
+const Colors = {
+  /** Primary UI actions: buttons, links */
+  primary: '#007AFF',
 
-const tintColorLight = '#0a7ea4';
-const tintColorDark = '#fff';
+  /** Background color for screens */
+  background: '#FFFFFF',
 
-export const Colors = {
-  light: {
-    text: '#11181C',
-    background: '#fff',
-    tint: tintColorLight,
-    icon: '#687076',
-    tabIconDefault: '#687076',
-    tabIconSelected: tintColorLight,
-  },
-  dark: {
-    text: '#ECEDEE',
-    background: '#151718',
-    tint: tintColorDark,
-    icon: '#9BA1A6',
-    tabIconDefault: '#9BA1A6',
-    tabIconSelected: tintColorDark,
-  },
-};
+  /** Background color for cards, inputs, etc. */
+  card: '#F5F5F5',
+
+  /** Main text color */
+  text: '#333333',
+
+  /** Subtext or muted informational text */
+  mutedText: '#777777',
+
+  /** Used for errors, deletions, destructive actions */
+  danger: '#FF3B30',
+
+  /** Used for warning or "in progress" state */
+  warning: '#FF9500',
+
+  /** Used for success state or completed tasks */
+  success: '#34C759',
+
+  /** For borders, dividers, light shadows */
+  border: '#E0E0E0',
+} as const;
+
+export default Colors;
