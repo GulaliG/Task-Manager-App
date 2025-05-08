@@ -3,8 +3,8 @@ import { View, Text, StyleSheet } from 'react-native';
 export default function NotFoundScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Sayfa Bulunamadı</Text>
-      <Text style={styles.description}>Bu sayfa mevcut değil veya yanlış bir bağlantıya tıkladınız.</Text>
+      <Text style={styles.title}>Page Not Found</Text>
+      <Text style={styles.description}>This page does not exist or you clicked on the wrong link.</Text>
     </View>
   );
 }

@@ -1,28 +1,54 @@
-# 📋 Task Manager App
+# Task Manager App
 
 A clean, modular, and locally persistent React Native mobile app for managing tasks in the field.
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 This project was designed to assess core mobile development competencies using modern tooling, strong coding standards, and an intuitive user interface. The goal was to create a task management app that works seamlessly offline using local storage and showcases clean architecture practices.
 
 ---
 
-## 🚀 Key Features
+## Screenshots
 
-- 📌 **Add Tasks**: Create new tasks with title, description, date/time, and location
-- 📋 **Task Listing**: View all tasks with status indicators
-- 🔄 **Status Management**: Mark tasks as `Pending`, `In Progress`, `Completed`, or `Cancelled`
-- 🗑 **Delete Tasks**: Delete tasks with confirmation
-- 💾 **Offline Persistence**: All task data is saved locally using `AsyncStorage`
-- 🎨 **Modern UI**: Uses Ionicons and modular components for a clean, consistent look
-- 🧪 **Error Handling**: Form validation and fail-safe logic throughout
+### Home
+![Home](./assets/screenshots/home.png)
+
+### Add Task Screens
+![Add Task](./assets/screenshots/add-task.png)
+![Add Task 2](./assets/screenshots/add-task_2.png)
+![Add Task 3](./assets/screenshots/add-task_3.png)
+![Add Task 4](./assets/screenshots/add-task_4.png)
+
+### Task List Screens
+![Task List](./assets/screenshots/task-list.png)
+![Task List 2](./assets/screenshots/task-list_2.png)
+
+### Task Details Screens
+![Task Details](./assets/screenshots/task-details.png)
+![Task Details 2](./assets/screenshots/task-details_2.png)
+![Task Details 3](./assets/screenshots/task-details_3.png)
+
+### Delete Task
+![Delete Task](./assets/screenshots/delete-task.png)
+
 
 ---
 
-## 🧱 Tech Stack
+## Key Features
+
+- **Add Tasks**: Create new tasks with title, description, date/time, and location
+- **Task Listing**: View all tasks with status indicators
+- **Status Management**: Mark tasks as `Pending`, `In Progress`, `Completed`, or `Cancelled`
+- **Delete Tasks**: Delete tasks with confirmation
+- **Offline Persistence**: All task data is saved locally using `AsyncStorage`
+- **Modern UI**: Uses Ionicons and modular components for a clean, consistent look
+- **Error Handling**: Form validation and fail-safe logic throughout
+
+---
+
+## Tech Stack
 
 | Layer            | Tech Used                                             |
 |------------------|--------------------------------------------------------|
@@ -36,7 +62,7 @@ This project was designed to assess core mobile development competencies using m
 
 ---
 
-## 🧼 Clean Code Philosophy
+## Clean Code Philosophy
 
 The entire codebase follows industry-standard **clean code** principles:
 
@@ -49,15 +75,15 @@ The entire codebase follows industry-standard **clean code** principles:
 
 ---
 
-## ⚙️ Setup & Usage
+## Setup & Usage
 
-### 🔧 Prerequisites
+### Prerequisites
 
 - Node.js ≥ 16
 - Expo CLI: `npm install -g expo-cli`
 - Android Emulator or Expo Go App
 
-### ▶️ Running Locally
+### Running Locally
 
 ```bash
 # 1. Install dependencies
